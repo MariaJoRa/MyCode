@@ -1,0 +1,6 @@
+print("Ingrese su estatura en m")
+estatura= float(input())
+print("Ingrese su peso en kg")
+peso=float(input())
+indiceDeMasaCorporal= peso/(estatura*estatura)
+print("Su índice de masa corporal es: "+ str(indiceDeMasaCorporal))
